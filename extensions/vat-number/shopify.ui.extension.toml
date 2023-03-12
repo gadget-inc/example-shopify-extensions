@@ -1,0 +1,10 @@
+type = "checkout_ui_extension"
+name = "vat-number"
+
+extension_points = [
+  'Checkout::DeliveryAddress::RenderBefore'
+]
+
+[[metafields]]
+namespace = "gadget-example"
+key = "vat-number"
